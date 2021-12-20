@@ -1,0 +1,258 @@
+/* iitialisation */
+* {
+  padding: 0%;
+  margin: 0%;
+}
+#header {
+  display: flex;
+  justify-content: space-around;
+}
+.one {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+.one li {
+  list-style: none;
+  margin-left: 2%;
+}
+
+#logo {
+  width: 20%;
+  /* height: 33px; */
+}
+/* introduction-part */
+#introduction-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2% 10%;
+}
+
+#logo1 {
+  display: flex;
+  justify-content: center;
+}
+.titre {
+  margin: 1em 0;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  color: turquoise;
+}
+/* h1 {
+  text-align: center;
+  color: #00b39b;
+} */
+#introduction-part_paragraph {
+  display: flex;
+  color: gray;
+  line-height: 1.75;
+  font-weight: 400;
+  padding: 2%;
+}
+#introduction-part_paragraph p {
+  padding: 2%;
+}
+/* ********************************** */
+.bloc {
+  display: flex;
+  color: antiquewhite;
+  justify-content: center;
+}
+#bloc1 {
+  border-radius: 2ex;
+  background-color: cyan;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 13px;
+  margin: 2%;
+}
+#bloc2 {
+  border-radius: 2ex;
+  background-color: cornflowerblue;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 13px;
+  margin: 2%;
+}
+#bloc3 {
+  border-radius: 2ex;
+  background-color: blue;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 13px;
+  margin: 2%;
+}
+/* #countries div {
+  display: flex;
+  width: 20%;
+  margin: 25%;
+  justify-content: space-between;
+}
+
+#w {
+  background-color: blue; 
+  border-radius: 4em;
+  color: white;
+  line-height: 1em;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#barcelona div {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+#b {
+  background-color: blue;
+  border: radius 4em;
+  line-height: 1em;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+} */
+/* #istanbul div {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+} */
+/* 
+#i {
+  background-color: blue; 
+  border: radius 4em;
+  color: white;
+  line-height: 1em;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+} */
+
+/* ************************************* */
+/* #countries {
+  display: flex;
+  flex-wrap: wrap;
+  width: 268px;
+  height: 241px;
+  justify-content: space-between;
+ 
+  margin: 2% 10%;
+} */
+/* .country {
+  margin: 2%;
+  border-radius: 10px;
+}
+
+.country img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.country:hover {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  cursor: pointer;
+}
+
+.country div {
+  display: flex;
+  justify-content: space-between;
+  padding: 6%;
+} */
+#countries {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 2% 10%;
+  border: radius 6px;
+}
+
+.png {
+  border-top-left-radius: 2ex;
+  border-top-right-radius: 2ex;
+}
+.COUNTRY {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.6666666667;
+  padding: 1.1111111111em;
+  font-size: 1.125em;
+  color: grey;
+}
+#b {
+  background: #1662c6;
+  color: aliceblue;
+  border: none;
+  border-radius: 4px;
+}
+/* svg */
+
+.svg {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 45px;
+}
+
+.p {
+  width: 33%;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  font-size: 1.625em;
+  color: #00b39b;
+}
+
+.symbole {
+  display: flex;
+  flex-wrap: wrap;
+  width: 66%;
+  align-items: center;
+  list-style: none;
+}
+.symbole li svg {
+  fill: #747474;
+  height: 20px;
+}
+.symbole li svg:hover {
+  fill: #00b39b;
+}
+
+.tuotempo {
+  width: 175px;
+}
+
+.gipo {
+  width: 85px;
+}
+
+.clinicloud {
+  width: 90px;
+}
+
+.symbole li img {
+  filter: grayscale(1);
+}
+
+.symbole li img:hover {
+  filter: initial;
+}
